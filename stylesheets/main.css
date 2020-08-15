@@ -1,0 +1,92 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  width: 100%;
+}
+
+header {
+  background: red;
+  color: white;
+  height: 50px;
+  padding: 0 25px;
+}
+
+header h1 {
+  float: left;
+  height: 20px;
+  width: 175px;
+  margin-top: 15px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+header li {
+  float: right;
+  padding: 15px 10px;
+  font-size: 15px;
+}
+
+header li:hover {
+  color: white;
+  cursor: pointer;
+}
+
+nav {
+  background: gray;
+  color: white;
+  height: 40px;
+  padding: 0 25px;
+}
+
+nav li {
+  float: right;
+  display: inline-block;
+  padding: 10px 10px;
+  font-size: 13px;
+}
+
+nav li:hover {
+  color: red;
+  cursor: pointer;
+}
+
+main {
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+section {
+  width: 75%;
+  padding: 30px;
+}
+
+section h1 {
+  padding: 0 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+section p {
+  padding: 0 20px;
+  font-size: 14px;
+}
+
+aside {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  padding: 0 20px;
+  font-size: 18px;
+}
+
+aside h2 {
+  font-weight: bold;
+}
+
+footer {
+  background: gray;
+  color: white;
+  height: 40px;
+  padding: 20px;
+  font-size: 14px;
+}
